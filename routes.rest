@@ -1,73 +1,74 @@
 // LOCALHOST
 ### Get all contacts
-GET http://localhost:8080/contacts
+GET http://localhost:5000/contacts
 
 
 ### Get contact by id
-GET http://localhost:8080/contacts/622023f642f9ab4cd6e060b3
+GET http://localhost:5000/contacts/63fc33736f65ed12b99d6329
 
 
 ### Create contact
-POST http://localhost:8080/contacts HTTP/1.1
+POST http://localhost:5000/contacts
 content-type: application/json
 
 {
-    "firstName":"Ashley",
-    "lastName":"Weaver",
-    "email":"aWeaver@test.com",
-    "favoriteColor":"Brown",
-    "birthday":"06/19/2000"
+    "firstName":"Marlon",
+    "lastName":"Brandon",
+    "email":"marlonbrandon@test.com",
+    "favoriteColor":"Yellow",
+    "birthday":"01/01/1989"
 }
 
 
 ### PUT contact
-PUT http://localhost:8080/contacts/6220bcb39cd507e920c75a0b HTTP/1.1
+PUT http://localhost:5000/contacts/6407c07efb3be1b9c4b3cd48
 content-type: application/json
 
 {
-    "firstName":"Sarah",
-    "lastName":"Birch",
-    "email":"test@gmail.com",
-    "favoriteColor":"Green",
-    "birthday":"12/12/20"
-}
+      "firstName":"Mark",
+    "lastName":"Jhonson",
+    "email":"markjhonson@test.com",
+    "favoriteColor":"Navy Blue",
+    "birthday":"11/21/1992"
+    }
 ### DELETE contact
-DELETE http://localhost:8080/contacts/6220b775099269ff7b31ceab HTTP/1.1
+DELETE http://localhost:5000/contacts/6407e4a76ad997963295d582
 
 // PRODUCTION Deploy
 ### Get all contacts
-GET https://cse341-instructor.herokuapp.com/contacts
+GET https://lesson03-javierespinoza.onrender.com/contacts
 
 
 ### Get contact by id
-GET https://cse341-instructor.herokuapp.com/contacts/622023f642f9ab4cd6e060b3
+GET https://lesson03-javierespinoza.onrender.com/contacts/63fc33736f65ed12b99d6329
 
 
 ### Create contact
-POST https://cse341-instructor.herokuapp.com/contacts HTTP/1.1
+POST https://lesson03-javierespinoza.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Ashley",
-    "lastName":"Weaver",
-    "email":"aWeaver@test.com",
-    "favoriteColor":"Brown",
-    "birthday":"06/19/2000"
+    "firstName":"Mark",
+    "lastName":"Yuhan",
+    "email":"yuhan@test.com",
+    "favoriteColor":"Light Green",
+    "birthday":"03/05/1985"
 }
 
 
 ### PUT contact
-PUT https://cse341-instructor.herokuapp.com/contacts/6220bcb39cd507e920c75a0b HTTP/1.1
+PUT https://lesson03-javierespinoza.onrender.com/contacts/6407e58be8f33669ec5e8f21 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Sarah",
-    "lastName":"Birch",
-    "email":"sarahB@gmail.com",
-    "favoriteColor":"Yellow",
-    "birthday":"06/12/20"
+    "firstName":"Mark",
+    "lastName":"Yuhan",
+    "email":"yuhanmarkn@test.com",
+    "favoriteColor":"Light Blue",
+    "birthday":"03/05/1985"
 }
 
 
+
 ### DELETE contact
-DELETE https://cse341-instructor.herokuapp.com/contacts/6220e34083149913680f9a64 HTTP/1.1
+DELETE https://lesson03-javierespinoza.onrender.com/contacts/6407e58be8f33669ec5e8f21 HTTP/1.1
