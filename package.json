@@ -1,5 +1,5 @@
 {
-  "name": "Rest-Practice",
+  "name": "rest-practice",
   "version": "1.0.0",
   "description": "Run npm install and npm start from the backend folder in the terminal",
   "main": "server.js",
