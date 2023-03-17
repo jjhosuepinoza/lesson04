@@ -57,7 +57,7 @@ content-type: application/json
 
 
 ### PUT contact
-PUT https://lesson04-swagger.onrender.com/contacts/6407e58be8f33669ec5e8f21 HTTP/1.1
+PUT https://lesson04-swagger.onrender.com/contacts/64128bec9510fce92b27240c HTTP/1.1
 content-type: application/json
 
 {
@@ -71,4 +71,4 @@ content-type: application/json
 
 
 ### DELETE contact
-DELETE https://lesson04-swagger.onrender.com/contacts/6407e58be8f33669ec5e8f21 HTTP/1.1
+DELETE https://lesson04-swagger.onrender.com/contacts/6413e9ddc2bf1561a04520bb 
