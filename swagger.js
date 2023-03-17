@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Temple API'
   },
-  host: 'localhost:5050',
+  host: 'https://lesson04-swagger.onrender.com',
   schemes: ['http']
 };
 
