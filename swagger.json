@@ -8,7 +8,7 @@
   "host": "https://lesson04-swagger.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
